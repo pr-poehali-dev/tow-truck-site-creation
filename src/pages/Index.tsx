@@ -3,6 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import Icon from "@/components/ui/icon";
+import CostCalculator from "@/components/CostCalculator";
 
 export default function Index() {
   return (
@@ -94,6 +95,13 @@ export default function Index() {
               </CardContent>
             </Card>
           </div>
+        </div>
+      </section>
+
+      {/* Calculator Section */}
+      <section className="py-20 bg-accent">
+        <div className="container mx-auto px-6">
+          <CostCalculator />
         </div>
       </section>
 
