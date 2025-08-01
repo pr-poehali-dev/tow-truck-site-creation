@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import Icon from "@/components/ui/icon";
 import CostCalculator from "@/components/CostCalculator";
+import TowTruckTracker from "@/components/TowTruckTracker";
 
 export default function Index() {
   return (
@@ -102,6 +103,13 @@ export default function Index() {
       <section className="py-20 bg-accent">
         <div className="container mx-auto px-6">
           <CostCalculator />
+        </div>
+      </section>
+
+      {/* Tracker Section */}
+      <section className="py-20">
+        <div className="container mx-auto px-6">
+          <TowTruckTracker />
         </div>
       </section>
 
